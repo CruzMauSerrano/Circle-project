@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Agency</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../assets/logos/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+          <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+            <i class="fa fa-bars burger"></i>
+          </label>
+          <a class='logo' href='/'>
+            <img src="../assets/logos/circle.svg" alt="Circle Logo" />
+          </a>
+          <input type="checkbox" id="chkToggle"></input>
+          <ul class="main-nav">
+            <li>
+              <a class="nav-links menu-selected" href="/index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-links" href="/index.html#projects">Projects</a>
+            </li>
+            <li>
+              <a class="nav-links" href="/index.html#services">Services</a>
+            </li>
+          </ul>
+          <a class="btn capitalize" id="menuBtn" href="./pages/contact.html">Contact us</a>
+        </nav>
+      </header>
+
+    <form id="form-container" action="" method="get" class="formClass">
+        <h1>Contact Us</h1>
+
+        <div class="nameDiv">
+            <label for="name">Full Name</label><br>
+            <input type="text" placeholder="Enter your full name" name="name" id="name" onblur="validateName()"
+                required>
+            <p id="errorName" hidden class="errorForm">You must enter a name.</p>
+        </div>
+        <div class="emailAndPhone">
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email address"
+                    onblur="validateEmail()" required>
+                <p id="errorEmail" hidden class="errorForm">Please, complete the field EMAIL</p>
+            </div>
+            <div>
+                <label for="phone">Phone</label><br>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number"
+                    onblur="validatePhone()" required>
+                <p id="errorPhone" hidden class="errorForm">You must enter your phone number</p>
+            </div>
+        </div>
+        <div class="messageDiv">
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"
+                placeholder="Write your message here..." onblur="validateMessage()" required></textarea>
+                <p id="errorMessageUser" hidden class="errorForm">The message must be at least 5 characters</p>
+
+        </div>
+        <div class="buttonSubmit">
+            <button type="button" onclick="sendForm()" id="submitForm">Submit</button>
+            <p class="errorForm" id="errorSubmit" hidden>Please check the required fields</p>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <div class="address-info">
+            <a class='address-info-logo' href='/'>
+                <img src="../assets/logos/circle.svg" alt="Circle Logo" />
+            </a>
+            <p>
+                2972 Westheimer Rd. Santa Ana,
+                <br>
+                Illinois 85486
+            </p>
+        </div>
+        <ul class="sitemap">
+            <li><a href="/index.html#projects">Team</a></li>
+            <li><a href="/index.html#services">Services</a></li>
+            <li><a href="../pages/about.html">About Us</a></li>
+            <li><a href="/index.html#services">Press</a></li>
+            <li><a href="/index.html#projects">Projects</a></li>
+            <li><a href="../pages/Privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+    </footer>
+    <script src="../js/contact.js"></script>
+</body>
+
+</html>

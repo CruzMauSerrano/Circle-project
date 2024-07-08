@@ -1,0 +1,317 @@
+* {
+    text-decoration: none;
+  }
+  
+  body {
+    width: 100%;
+  }
+  
+  #main-content {
+    display: none;
+  }
+  #loading-indicator {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .title {
+    text-align: left;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 10%;
+  }
+  
+  .subtitle {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+  }
+  
+  .UI-design-title {
+    color: var(--NeutralMedium);
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .completed-title {
+    color: var(--NeutralDark);
+    font-size: 10px;
+    margin: 0;
+  }
+  
+  .completed-title-data {
+    color: var(--NeutralMedium);
+    font-size: 10px;
+    margin: 0;
+    margin-right: 40px;
+  }
+  
+  
+  
+  .project-image-section {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 7%;
+  }
+  
+  .project-image {
+    width: 84%;
+    height: 40vh;
+    object-fit: cover;
+    filter: drop-shadow(5px 5px 20px #c414ca74);
+  }
+  
+  .project-description {
+    font-family: Roboto;
+    color: var(--NeutralMedium);
+    margin-bottom: 7%;
+    text-align: left;
+    background-color: var(--NeutralLight);
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 11px;
+  }
+  
+  
+  .recent-projects {
+    margin-top: 50px;
+  }
+  
+  .recent-projects h2 {
+    margin-left: 40px;
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  .project-title {
+    font-size: 20px;
+  }
+  
+  .project-card,
+  .project-card h4,
+  .project-card p,
+  .project-card a {
+    background-color: var(--White);
+    text-align: left;
+    color: var(--Black);
+  }
+  
+  .project-card {
+    margin: 20px auto;
+    padding-bottom: 10px;
+    width: 80%;
+  }
+  
+  .project-card:hover,
+  .services-card:hover {
+    box-shadow: 10px 5px 5px var(--NeutralMedium);
+  }
+  
+  .project-text {
+    background-color: var(--White);
+  }
+  
+  .project-card h4,
+  .project-card p,
+  .project-card a {
+    margin: 10px 0;
+  }
+  
+  .project-card h4,
+  .project-card p,
+  .project-card .learn-more {
+    padding-left: 10px;
+  }
+  
+  .project-card p {
+    color: var(--NeutralMedium);
+    font-weight: normal;
+    margin-bottom: 50px;
+  }
+  
+  .project-card a {
+    color: var(--Primary);
+  }
+  
+  .project-card img {
+    display: inline;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .learn-more {
+    margin-top: 50px;
+    color: var(--Primary);
+    font-size: 13px;
+  }
+  
+  .learn-more:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .project-inner-card {
+    background-color: var(--White);
+    margin: 10px;
+  }
+ 
+  
+  @media (min-width: 768px) {
+    .project-image {
+      width: 95%;
+      height: 50vh;
+      margin: 0 auto;
+    }
+  
+    .title {
+      text-align: left;
+      font-size: 60px;
+      margin-left: 80px;
+      margin-top: 10%;
+    }
+  
+    .subtitle {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 80px;
+    }
+  
+    .UI-design-title {
+      font-size: 20px;
+    }
+  
+    .completed-title {
+      font-size: 16px;
+    }
+  
+    .completed-title-data {
+      font-size: 16px;
+      margin-right: 80px;
+    }
+  
+    .project-image-section {
+      width: 85%;
+      margin-top: 4%;
+      margin-bottom: 4%;
+    }
+  
+    .project-description {
+      font-size: 16px;
+      margin-bottom: 7%;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  
+  
+    .recent-projects h2 {
+      margin: 30px;
+      text-align: left;
+      font-size: 32px;
+    }
+  
+  
+    .project-wrapper {
+      background-color: var(--NeutralLight);
+    }
+  
+    .recent-projects {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .project-card {
+      width: 40%;
+    }
+  
+    .projects-container {
+      display: flex;
+      flex-flow: row wrap;
+    }
+  
+    .learn-more {
+      font-size: 15px;
+    }
+  }
+  
+
+  
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 50px;
+    }
+  
+    .title {
+      text-align: left;
+      font-size: 60px;
+      margin-left: 80px;
+      margin-top: 7%;
+    }
+  
+    .subtitle {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 80px;
+    }
+  
+    .UI-design-title {
+      font-size: 24px;
+      margin: 0;
+    }
+  
+    .completed-title {
+      font-size: 20px;
+      margin: 0;
+    }
+  
+    .completed-title-data {
+      font-size: 20px;
+      margin: 0;
+      margin-right: 80px;
+    }
+  
+    .project-image {
+      width: 100%;
+      height: 70vh;
+    }
+  
+    .project-description {
+      margin-bottom: 7%;
+      margin-left: 80px;
+      margin-right: 80px;
+      font-size: 19px;
+    }
+  
+    .recent-projects h2 {
+      margin: 30px;
+      text-align: left;
+      font-size: 32px;
+    }
+  
+    .projects-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: center;
+      margin: 0 auto;
+      width: 95%;
+    }
+  
+    .project-card {
+      width: 30%;
+    }
+  
+    .project-title {
+      font-size: 24px;
+    }
+  
+    .learn-more {
+      font-size: 17px;
+    }
+  }
+  
+  
