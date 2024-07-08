@@ -25,7 +25,7 @@ Frontend Development of a website for a fictional Circle web design company, wit
 
 |                     | Name                | GitHub              |
 | :------------------ | :------------------ | :------------------ |
-| <a href="https://github.com/CruzMauSerrano"><img src="https://avatars.githubusercontent.com/u/170109050?s=400&v=4" width="60" height="60" style="border-radius: 50%" alt="mauricio avatar"></a> | **Mauricio** | | ***CruzMauSerrano*** |
+| <a href="https://github.com/CruzMauSerrano"><img src="https://avatars.githubusercontent.com/u/170109050?s=400&v=4" width="60" height="60" style="border-radius: 50%" alt="mauricio avatar"></a> | **Mauricio** |  ***CruzMauSerrano*** |
 
 ### Objectives
 
