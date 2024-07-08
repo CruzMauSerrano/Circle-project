@@ -7,6 +7,8 @@
         <a href="https://ironhack-midtermproject.netlify.app">View Netlify deployed demo</a>
         ·
         <a href="https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects">View the API endpoint</a>
+        .
+        <a href="https://docs.google.com/presentation/d/1OmKw9Z9E9VzNTjuxRSztz58qTPYCYeLlFkYrvAVfnoo/edit?usp=sharing">Presentation - Google Presentation </a>
     </div>
 </div>
 
